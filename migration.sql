@@ -5,12 +5,10 @@ CREATE TABLE "accounts" (
     "type" TEXT NOT NULL,
     "provider" TEXT NOT NULL,
     "provider_account_id" TEXT NOT NULL,
-    "refresh_token" TEXT,
     "access_token" TEXT,
     "expires_at" INTEGER,
     "token_type" TEXT,
     "scope" TEXT,
-    "id_token" TEXT,
     "session_state" TEXT,
 
     CONSTRAINT "accounts_pkey" PRIMARY KEY ("id")
