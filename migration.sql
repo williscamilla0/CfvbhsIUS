@@ -9,7 +9,6 @@ CREATE TABLE "accounts" (
     "expires_at" INTEGER,
     "token_type" TEXT,
     "scope" TEXT,
-    "session_state" TEXT,
 
     CONSTRAINT "accounts_pkey" PRIMARY KEY ("id")
 );
